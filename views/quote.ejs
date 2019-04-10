@@ -1,0 +1,6 @@
+<h1>On the quotes page</h1>
+<% for(key in quotes) { %>
+    <h1>Name: <%= quotes[key].name %> </h1>
+    <h1>Quote: <%= quotes[key].quoteContent %></h1>
+    <h3> <%= quotes[key].createdAt %></h3>
+    <% } %>
